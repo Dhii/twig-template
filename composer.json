@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "php": "^7.2",
+    "php": "^7.2 | ^8.0",
     "dhii/output-renderer-interface": "^0.4",
     "twig/twig": "^3.0"
   },

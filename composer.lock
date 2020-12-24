@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "550d5569b3932e49cc0589726716c96d",
+    "content-hash": "dde9acfce478521545be4538c8900a02",
     "packages": [
         {
             "name": "dhii/output-renderer-interface",
@@ -1925,12 +1925,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "51f5d93eedecd6f512562cb26d0f4d3abb52eb41"
+                "reference": "29f420d0b3844451a03d1d6e5e641bac88f27b07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/51f5d93eedecd6f512562cb26d0f4d3abb52eb41",
-                "reference": "51f5d93eedecd6f512562cb26d0f4d3abb52eb41",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/29f420d0b3844451a03d1d6e5e641bac88f27b07",
+                "reference": "29f420d0b3844451a03d1d6e5e641bac88f27b07",
                 "shasum": ""
             },
             "require": {
@@ -2014,7 +2014,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-23T06:00:38+00:00"
+            "time": "2020-12-24T12:25:02+00:00"
         },
         {
             "name": "psr/container",
@@ -3880,7 +3880,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2"
+        "php": "^7.2 | ^8.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
