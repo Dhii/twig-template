@@ -1,8 +1,8 @@
 <?php
 
-namespace Me\Library\Test\Func;
+namespace Dhii\TwigTemplate\Test\Func;
 
-use Me\Library\Thing;
+use Dhii\TwigTemplate\Thing;
 use PHPUnit\Framework\TestCase;
 
 class ThingTest extends TestCase
