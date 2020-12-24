@@ -14,24 +14,24 @@ class TemplateRenderException extends RuntimeException implements
     TemplateRenderExceptionInterface
 {
     /**
-     * @var RendererInterface|null
+     * @var RendererInterface
      */
     protected $renderer;
     /**
-     * @var array|ArrayAccess|ContainerInterface|null
+     * @var array|ArrayAccess|ContainerInterface
      */
     protected $context;
 
     /**
-     * @param RendererInterface|null $renderer
-     * @param array|ArrayAccess|ContainerInterface|null $context
+     * @param RendererInterface $renderer
+     * @param array|ArrayAccess|ContainerInterface $context
      */
     public function __construct(
+        ?RendererInterface $renderer,
+        $context,
         $message = '',
         $code = 0,
-        Throwable $previous = null,
-        ?RendererInterface $renderer = null,
-        $context = null
+        Throwable $previous = null
     ) {
         parent::__construct($message, $code, $previous);
         $this->renderer = $renderer;

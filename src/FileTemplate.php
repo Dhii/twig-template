@@ -31,7 +31,7 @@ class FileTemplate implements TemplateInterface
         try {
             return $this->twigTemplate->render($context);
         } catch (Exception $e) {
-            throw new TemplateRenderException($this->__('Could not render template'), 0, $e, $this, $context);
+            throw new TemplateRenderException($this, $context, $this->__('Could not render template'), 0, $e);
         }
     }
 
