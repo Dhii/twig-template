@@ -18,13 +18,13 @@ class TemplateRenderException extends RuntimeException implements
      */
     protected $renderer;
     /**
-     * @var array|ArrayAccess|object|ContainerInterface|null
+     * @var array|ArrayAccess|ContainerInterface|null
      */
     protected $context;
 
     /**
      * @param RendererInterface|null $renderer
-     * @param array|ArrayAccess|ContainerInterface|object|null $context
+     * @param array|ArrayAccess|ContainerInterface|null $context
      */
     public function __construct(
         $message = '',

@@ -44,10 +44,6 @@ class FileTemplate implements TemplateInterface
      */
     protected function normalizeContext($context): array
     {
-        if (is_object($context)) {
-            $context = (array) $context;
-        }
-
         if ($context instanceof Traversable) {
             $context = iterator_to_array($context);
         }
