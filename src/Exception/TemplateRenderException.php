@@ -27,7 +27,7 @@ class TemplateRenderException extends RuntimeException implements
      * @param array|ArrayAccess|ContainerInterface $context
      */
     public function __construct(
-        ?RendererInterface $renderer,
+        RendererInterface $renderer,
         $context,
         $message = '',
         $code = 0,
